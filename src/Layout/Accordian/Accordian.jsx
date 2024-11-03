@@ -3,7 +3,7 @@ import React from 'react';
 import * as Accordion from '@radix-ui/react-accordion';
 import classNames from 'classnames';
 import { ChevronDownIcon } from '@radix-ui/react-icons';
-import '../../src/index.css';
+import '../../../src/Layout/AlertDialog/AlertDialog.css';
 
 const AccordionDemo = () => (
   <Accordion.Root

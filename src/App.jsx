@@ -1,10 +1,15 @@
 import './App.css';
-import AccordionDemo from './Layout/Accordian';
-
+// import AccordionDemo from './Layout/Accordian/Accordian';
+import './Layout/Accordian/Accordian.css';
+import AlertDialogDemo from './Layout/AlertDialog/AlertDialog';
+import AvatarDemo from './Layout/Avatar/Avatar';
 function App() {
   return (
     <>
-      <AccordionDemo />
+      {/* <AccordionDemo /> */}
+      <AlertDialogDemo />
+      <AvatarDemo />
+      <AvatarDemo />
     </>
   );
 }

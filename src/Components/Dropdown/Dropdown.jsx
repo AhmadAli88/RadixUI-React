@@ -6,7 +6,7 @@ import {
 	CheckIcon,
 	ChevronRightIcon,
 } from "@radix-ui/react-icons";
-import "./styles.css";
+import "./dropdown.css";
 import React from "react";
 
 const DropdownMenuDemo = () => {

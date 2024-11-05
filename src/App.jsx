@@ -1,8 +1,11 @@
 import './App.css';
+import SeparatorDemo from './Components/Separator/Separator';
 // import AccordionDemo from './Layout/Accordian/Accordian';
-import './Layout/Accordian/Accordian.css';
-import AlertDialogDemo from './Layout/AlertDialog/AlertDialog';
-import AvatarDemo from './Layout/Avatar/Avatar';
+import './Components/Accordian/Accordian';
+import AlertDialogDemo from './Components/AlertDialog/AlertDialog';
+import AvatarDemo from './Components/Avatar/Avatar';
+import CheckboxDemo from './Components/Checkbox/Checkbox';
+import DialogDemo from './Components/Dialog/Dialog';
 function App() {
   return (
     <>
@@ -10,6 +13,9 @@ function App() {
       <AlertDialogDemo />
       <AvatarDemo />
       <AvatarDemo />
+      <SeparatorDemo/>
+      <CheckboxDemo/>
+      <DialogDemo/>
     </>
   );
 }

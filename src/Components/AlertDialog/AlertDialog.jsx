@@ -1,5 +1,5 @@
 import * as AlertDialog from '@radix-ui/react-alert-dialog';
-import '../../../src/Layout/AlertDialog/AlertDialog.css';
+import '../../../src/Components/AlertDialog/AlertDialog.css';
 
 const AlertDialogDemo = () => (
   <AlertDialog.Root>

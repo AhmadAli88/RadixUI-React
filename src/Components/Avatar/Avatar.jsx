@@ -1,5 +1,5 @@
 import * as Avatar from '@radix-ui/react-avatar';
-import '../../../src/Layout/Avatar/Avatar.css';
+import '../../../src/Components/Avatar/Avatar.css';
 
 const AvatarDemo = () => (
   <div style={{ display: 'flex', gap: 20 }}>
